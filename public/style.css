@@ -12,7 +12,7 @@ body {
 }
 
 .loader {
-    background: var(--main-c) url("https://cdn.discordapp.com/attachments/978761632597565550/1063136093307928707/492329d446c422b0483677d0318ab4fa.gif") no-repeat center center !important;
+    background: var(--background) url("https://cdn.discordapp.com/attachments/978761632597565550/1063136093307928707/492329d446c422b0483677d0318ab4fa.gif") no-repeat center center !important;
     height: 100vh;
     width: 100%;
     position: fixed;
