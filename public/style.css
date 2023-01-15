@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
+/* Root */
 :root {
     --background: #1e1e1e;
     --second-background: #151515;
 }
 
+/* Body/Html */
 html,
 body {
     background-color: var(--background) !important;
 }
 
+/* Loading part */
 .loader {
     padding:100%;
     border-radius: 20rem;
@@ -22,7 +25,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
+/* Navbar part */
 .dhdbar-link {
     font-family: 'Open Sans', sans-serif;
 }
@@ -34,15 +37,12 @@ body {
     float: right;
 }
 
-.home {
-    margin-right: 20px;
-}
-
 a {
     color: white !important;
     text-decoration: none;
 }
 
+/* Sections */
 .welcome_section,
 .learning {
     margin: 3rem 0 2rem 0;
@@ -73,6 +73,7 @@ a {
     color: #b998fc !important;
 }
 
+/* Footer */
 #icon-footer a i {
     margin-top: 1rem;
     font-size: 25px;
@@ -88,6 +89,7 @@ footer {
     margin: 2rem;
 }
 
+/* Project part */
 .projects section h2 {
     margin: 3rem 0 6rem 0;
     color: white;
@@ -126,6 +128,7 @@ footer {
     justify-content: center;
 }
 
+/* Icon skills */
 #icon-learning {
     font-size: 27px;
     color: #61dafb;
@@ -163,14 +166,18 @@ footer {
     margin: 1rem 2rem 0.5rem 2rem;
 }
 
-@media screen and (max-width: 750px) {
+/* Media/animation */
+@media screen and (max-width: 1166px) {
 
     .main {
         margin: 3rem 15% 2rem 15%;
     }
+    .home {
+        margin-right: 5px;
+    }
 
     .dhdbar-link {
-        font-size: 40px !important;
+        font-size: 28px !important;
     }
 
     .learning-info h2 {
@@ -184,18 +191,20 @@ footer {
     }
 
     .learning-info {
-        margin: 1.5rem 0 1.5rem 0;
         background-color: var(--second-background);
+        margin-top:3rem;
         padding: 20px;
-        width: 25rem;
+        width: 17rem;
+        height: 12rem;
         border-radius: 15px;
     }
 
     .learning-icon {
         background-color: var(--second-background);
+        margin-top:3rem;
         padding: 20px;
-        width: 25rem;
-        max-height: 13rem;
+        width: 17rem;
+        max-height: 12rem;
         border-radius: 15px;
     }
 
@@ -213,10 +222,10 @@ footer {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1166px) {
 
     .main {
-        margin: 2rem 33% 2rem 33%;
+        margin: 3rem 25% 2rem 25%;
     }
 
     .dhdbar-link {
@@ -234,7 +243,7 @@ footer {
     }
 
     .learning-info {
-        margin: 3rem 0 3rem 0;
+        margin-top: 3rem;
         background-color: var(--second-background);
         height: 13rem;
         padding: 20px;
@@ -242,7 +251,7 @@ footer {
     }
 
     .learning-icon {
-        margin: 3rem 0 3rem 0;
+        margin-top: 3rem;
         background-color: var(--second-background);
         padding: 20px;
         max-width: 17rem;
