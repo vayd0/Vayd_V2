@@ -14,7 +14,7 @@ body {
 .loader {
     background: var(--background) url("/media/loader.gif") no-repeat center center !important;
     height: 100vh;
-    width: 10rem;
+    width: 5rem;
     position: fixed;
     z-index: 100;
     -webkit-animation: fadeOut 2s;
