@@ -17,8 +17,7 @@ body {
 
 .loader img {
     border-radius: 30px;
-    height: 100vh;
-    width: 100%;
+    width: 15rem;
     position: fixed;
     z-index: 100;
 }
