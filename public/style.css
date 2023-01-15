@@ -147,6 +147,10 @@ footer {
     -moz-text-fill-color: transparent;
 }
 
+.icon {
+    margin: 1rem 2rem 0.5rem 2rem;
+}
+
 @media screen and (max-width: 750px) {
 
     .main {
@@ -181,10 +185,6 @@ footer {
         width: 25rem;
         max-height: 13rem;
         border-radius: 15px;
-    }
-
-    .icon {
-        margin: 1rem 2rem 0.5rem 2rem;
     }
 
     #learn {
