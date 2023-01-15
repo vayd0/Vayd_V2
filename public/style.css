@@ -19,7 +19,6 @@ body {
     z-index: 100;
     -webkit-animation: fadeOut 2s;
     animation: fadeOut 2s;
-    animation-fill-mode: forwards;
 }
 
 .dhdbar-link {
