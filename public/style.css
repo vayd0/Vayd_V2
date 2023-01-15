@@ -114,6 +114,38 @@ footer {
     justify-content: center;
 }
 
+#icon-learning {
+    font-size: 27px;
+    color: #61dafb;
+    background: linear-gradient(0deg, #d9c6ff 14%, #a27bf2 25%, var(--background) 78%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#icon-learning2 {
+    font-size: 27px;
+    color: #61dafb;
+    background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, var(--background) 50%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#icon-learning3 {
+    font-size: 27px;
+    color: #61dafb;
+    background: linear-gradient(0deg, #d9c6ff 10%, var(--background) 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
 
 @media screen and (max-width: 750px) {
 
@@ -153,39 +185,6 @@ footer {
 
     .icon {
         margin: 1rem 2rem 0.5rem 2rem;
-    }
-
-    #icon-learning {
-        font-size: 27px;
-        color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, var(--background) 78%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-    }
-
-    #icon-learning2 {
-        font-size: 27px;
-        color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, var(--background) 50%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-    }
-
-    #icon-learning3 {
-        font-size: 27px;
-        color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 10%, var(--background) 80%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
     }
 
     #learn {
@@ -233,38 +232,5 @@ footer {
 
     .icon {
         margin: 1rem 0 1rem 0;
-    }
-
-    #icon-learning {
-        font-size: 27px;
-        color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, var(--background) 78%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-    }
-
-    #icon-learning2 {
-        font-size: 27px;
-        color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, var(--background) 50%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-    }
-
-    #icon-learning3 {
-        font-size: 27px;
-        color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 10%, var(--background) 80%);
-        background-clip: border-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
     }
 }
