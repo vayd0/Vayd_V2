@@ -188,6 +188,10 @@ footer {
         -moz-text-fill-color: transparent;
     }
 
+    .learning-icon .icon {
+        margin-top:1rem;
+    }
+
     #learn {
         display: flex;
         justify-content: center;
