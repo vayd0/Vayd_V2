@@ -158,7 +158,7 @@ footer {
     #icon-learning {
         font-size: 27px;
         color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, #383838 78%);
+        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, var(--background) 78%);
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -169,7 +169,18 @@ footer {
     #icon-learning2 {
         font-size: 27px;
         color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, #383838 50%);
+        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, var(--background) 50%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    #icon-learning3 {
+        font-size: 27px;
+        color: #61dafb;
+        background: linear-gradient(0deg, #d9c6ff 10%, var(--background) 80%);
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -227,7 +238,7 @@ footer {
     #icon-learning {
         font-size: 27px;
         color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, #383838 78%);
+        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, var(--background) 78%);
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -238,7 +249,18 @@ footer {
     #icon-learning2 {
         font-size: 27px;
         color: #61dafb;
-        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, #383838 50%);
+        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, var(--background) 50%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    #icon-learning3 {
+        font-size: 27px;
+        color: #61dafb;
+        background: linear-gradient(0deg, #d9c6ff 10%, var(--background) 80%);
         background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
