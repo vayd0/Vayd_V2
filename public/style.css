@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --background: #272626;
+    --second-background: #1d1d1d;
+}
+
+html,
+body {
+    background-color: var(--background) !important;
+}
+
+.dhdbar-link {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dhdbar-brand {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #ccb4fb !important;
+    text-shadow: 0 0 0px #b999fa, 0 0 5px #a27bf2, 0 0 5px #8965cf, 0 0 10px #614794, 0 0 10px #8456e0;
+    float: right;
+}
+
+.home {
+    margin-right: 20px;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.welcome_section,
+.learning {
+    margin: 3rem 0 2rem 0;
+    color: white;
+}
+
+.welcome_section h1,
+.dbd-title {
+    font-weight: bold;
+}
+
+.welcome_section p {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.learning-icon h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.see_project h3 {
+    color: white;
+    font-weight: 700;
+}
+
+.see_project a {
+    color: #b998fc !important;
+}
+
+#icon-footer a i {
+    margin-top: 1rem;
+    font-size: 25px;
+    color: #b998fc !important;
+}
+
+#learn, #project_col {
+    filter: drop-shadow(0 0 0.4rem #a27bf2)
+}
+
+footer {
+    margin: 2rem;
+}
+
+.projects section h2 {
+    margin: 3rem 0 6rem 0;
+    color: white;
+    font-weight: 100;
+}
+
+.projects section .container .row .col section h3 {
+    margin: 1rem;
+    color: #835fcc;
+    font-weight: 600;
+}
+
+.projects section .container .row .col section h3 i {
+    margin:3px;
+    float:right;
+}
+
+.projects section .container .row .col section p {
+    margin: 1.5rem 0 0 10px;
+    font-weight: 200 !important;
+    color: white;
+    font-size: 25px;
+}
+
+.projects section .container .row .col section {
+    margin: 1.5rem 0 1.5rem 0;
+    background-color:var(--second-background);
+    padding: 20px;
+    width: 17rem;
+    height: 12rem;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .main {
+        margin: 3rem 15% 2rem 15%;
+    }
+
+    .dhdbar-link {
+        font-size: 40px !important;
+    }
+
+    .learning-info h2 {
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .learning-info p {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .learning-info {
+        margin: 1.5rem 0 1.5rem 0;
+        background-color: var(--second-background);
+        padding: 20px;
+        width: 25rem;
+        border-radius: 15px;
+    }
+
+    .learning-icon {
+        background-color: var(--second-background);
+        padding: 20px;
+        width: 25rem;
+        height: 8rem;
+        border-radius: 15px;
+    }
+
+    .icon {
+        margin: 0rem 2rem 1rem 2rem;
+    }
+
+    #icon-learning {
+        font-size: 27px;
+        color: #61dafb;
+        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, #383838 78%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    #icon-learning2 {
+        font-size: 27px;
+        color: #61dafb;
+        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, #383838 50%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .main {
+        margin: 2rem 33% 2rem 33%;
+    }
+
+    .dhdbar-link {
+        font-size: 50px !important;
+    }
+
+    .learning-info h2 {
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+    .learning-info p {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .learning-info {
+        margin: 3rem 0 3rem 0;
+        background-color: var(--second-background);
+        height: 13rem;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .learning-icon {
+        margin: 3rem 0 3rem 0;
+        background-color: var(--second-background);
+        padding: 20px;
+        width: 13rem;
+        height: 13rem;
+        border-radius: 15px;
+    }
+
+    .icon {
+        margin: 1rem 0 1rem 0;
+    }
+
+    #icon-learning {
+        font-size: 27px;
+        color: #61dafb;
+        background: linear-gradient(0deg, #d9c6ff 13%, #a27bf2 25%, #383838 78%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    #icon-learning2 {
+        font-size: 27px;
+        color: #61dafb;
+        background: linear-gradient(0deg, #d9c6ff 15%, #a27bf2 20%, #383838 50%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+}
