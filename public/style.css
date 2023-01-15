@@ -13,7 +13,7 @@ body {
 
 .loader {
     background: var(--background) url("/media/loader.gif") no-repeat center center !important;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     position: fixed;
     z-index: 100;
