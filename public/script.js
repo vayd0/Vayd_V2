@@ -1,6 +1,6 @@
 $(document).ready(function () {
     setTimeout(() => {
-        $(".loader").css("display", "none");
+        $(".loader").css("opacity", "0");
     }, 2000);
 })
 
