@@ -191,6 +191,13 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .see_project h3 {
+        font-size:30px;
+    }
+    
+    .see_project a {
+        font-size:30px;
+    }
 }
 
 @media screen and (min-width: 900px) {
