@@ -67,7 +67,8 @@ a {
     color: #b998fc !important;
 }
 
-#learn, #project_col {
+#learn,
+#project_col {
     filter: drop-shadow(0 0 0.4rem #a27bf2)
 }
 
@@ -88,8 +89,8 @@ footer {
 }
 
 .projects section .container .row .col section h3 i {
-    margin:3px;
-    float:right;
+    margin: 3px;
+    float: right;
 }
 
 .projects section .container .row .col section p {
@@ -101,7 +102,7 @@ footer {
 
 .projects section .container .row .col section {
     margin: 1.5rem 0 1.5rem 0;
-    background-color:var(--second-background);
+    background-color: var(--second-background);
     padding: 20px;
     width: 17rem;
     max-height: 16rem;
@@ -109,9 +110,10 @@ footer {
 }
 
 #project_col {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 
 @media screen and (max-width: 750px) {
 
@@ -173,6 +175,11 @@ footer {
         -webkit-text-fill-color: transparent;
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
+    }
+
+    #learn {
+        display: flex;
+        justify-content: center;
     }
 }
 
