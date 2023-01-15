@@ -104,7 +104,7 @@ footer {
     background-color:var(--second-background);
     padding: 20px;
     width: 17rem;
-    height: 12rem;
+    max-height: 16rem;
     border-radius: 15px;
 }
 
@@ -140,7 +140,7 @@ footer {
         background-color: var(--second-background);
         padding: 20px;
         width: 25rem;
-        height: 8rem;
+        max-height: 13rem;
         border-radius: 15px;
     }
 
