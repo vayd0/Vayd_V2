@@ -11,6 +11,17 @@ body {
     background-color: var(--background) !important;
 }
 
+.loader {
+    background: var(--background) url("/media/loader.gif") no-repeat center center !important;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    -webkit-animation: fadeOut 2s;
+    animation: fadeOut 2s;
+    animation-fill-mode: forwards;
+}
+
 .dhdbar-link {
     font-family: 'Open Sans', sans-serif;
 }
@@ -192,11 +203,11 @@ footer {
         justify-content: center;
     }
     .see_project h3 {
-        font-size:20px !important;
+        font-size:25px !important;
     }
     
     .see_project a {
-        font-size:20px !important;
+        font-size:25px !important;
     }
 }
 
